@@ -1,0 +1,77 @@
+body {
+    background-image: url("./mediamodifier-nCk22aqZjlM-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 130px;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background: #ECB365; opacity: 0.8;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+td {
+    text-align: left;
+    border: 1px solid #f1eded;
+    padding: 8px 15px;
+}
+
+tr:nth-child(even), table.list thead>tr {
+    background-color: #ded5d5;
+}
+
+input[type="text"], input[type="number"] {
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 4px;
+}
+
+input[type="submit"], input[type="reset"] {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover {
+    background: #4b99d8;
+}
+
+button {
+    background: rgb(255, 254, 254);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background: #4b99d8
+}
+
